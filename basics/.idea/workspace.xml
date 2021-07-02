@@ -25,6 +25,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="RunManager">
+    <configuration name="flip" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="basicsPackegeName.Library" />
+      <module name="basics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c3f3e3ac-c5ec-4669-b186-d95a20ab7c2f" name="Default Changelist" comment="" />
