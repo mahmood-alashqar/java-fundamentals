@@ -29,6 +29,7 @@ public class Library {
          * FlipHeads()
          */
         flipNHeads(10);
+
         /**
          * clock()
          */
@@ -54,24 +55,29 @@ public class Library {
      *
      * @param n : number of flips
      */
-    public static void flipNHeads(int n) {
-        int headCount = 0;
-        int headsMax = 0;
-        int[] arr = {};
-        for (int i = 0; i < n; i++) {
-            if (Math.random() < 0.5) {
+    public static void flipNHeads(int n){
+        int headsNumRow = 0 ;
+        int flipsNum = 0 ;
+        while(headsNumRow<n){
+            flipsNum++;
+            if(Math.random() < 0.5){
                 System.out.println("tails");
-                if (headCount > headsMax) {
-                    headsMax = headCount;
-                    headCount = 0;
-                }
-            } else {
+                headsNumRow = 0;
+            }
+            else{
                 System.out.println("heads");
-                headCount++;
+                headsNumRow ++ ;
             }
         }
-        System.out.println("It took " + n + " flips to flip " + Math.max(headCount, headsMax) + " head in a row.");
+        String wordFlip = " flips" ;
+        String wordHead = " heads";
+        if(flipsNum<=1) {
+            wordFlip = " flip";
+            wordHead = " head";
+        }
+        System.out.println("It took " + flipsNum + wordFlip + " to flip " + n + wordHead + " in a row.");
     }
+
 
     /**
      * follow the time
