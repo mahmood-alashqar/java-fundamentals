@@ -39,7 +39,22 @@ public class Library {
                 {65, 56, 55, 52, 55, 62, 57}
         };
        analizeWeatherData(weeklyMonthTemperatures);
+/**
+ * use most votes function
+ */
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
 
+        String winner = tally((ArrayList<String>) votes);
+        System.out.println(winner + " received the most votes!");
     }
 
     /**
@@ -135,4 +150,31 @@ public class Library {
         }
         return 0;
     }
+    /**
+     *
+     * @param votes
+     * @return the most votes repeated
+     */
+    public static String tally (ArrayList<String> votes){
+        Map<String, Integer> wordMap = new HashMap<>();
+
+        for (String st : votes) {
+            String input = st.toUpperCase();
+            if (wordMap.get(input) != null) {
+                Integer count = wordMap.get(input) + 1;
+                wordMap.put(input, count);
+
+
+                //=
+            } else {
+                wordMap.put(input, 1);
+            }
+        }
+//    System.out.println(wordMap);
+        Object maxEntry = Collections.max(wordMap.entrySet(), Map.Entry.comparingByValue()).getKey();
+//    System.out.println("maxEntry = " + maxEntry);
+        return (String) maxEntry;
+    }
+
+
 }
