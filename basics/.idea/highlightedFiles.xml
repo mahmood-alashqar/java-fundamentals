@@ -3,6 +3,7 @@
   <component name="ProjectTreeColorHighlighter">
     <files />
     <colors>
+
       <color id="1" value="#de2c2c" name="Color 1" enabled="true" />
       <color id="2" value="#ff6d0d" name="Color 2" enabled="true" />
       <color id="3" value="#fefc22" name="Color 3" enabled="true" />
@@ -11,6 +12,7 @@
       <color id="6" value="#00b5ff" name="Color 6" enabled="true" />
       <color id="7" value="#b892db" name="Color 7" enabled="true" />
       <color id="8" value="#bebebe" name="Color 8" enabled="true" />
+
     </colors>
     <option name="marksForCollapsedHighlights" value="Dots" />
   </component>
