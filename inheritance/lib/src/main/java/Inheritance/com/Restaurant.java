@@ -17,6 +17,10 @@ public class Restaurant {
 
         this.noOfStars=noOfStars;
     }
+    public Restaurant(String priceCategory) {
+
+        this.priceCategory=priceCategory;
+    }
 
     // dont forget to put tostring method
     public String toString(){
@@ -62,8 +66,8 @@ return "";
        rev.add(review.getAuthor());
        rev.add(review.getBody());
        rev.add(getPriceCategory());
+        System.out.println(this.noOfStars);
        allreviews.put(this.name,rev);
        System.out.println(allreviews);
-
     }
 }
