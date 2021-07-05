@@ -1,14 +1,22 @@
 package Inheritance.com;
 
-public class Review {
+public class Review extends Restaurant{
     private String body;
     private String author;
     private int noOfStars;
-    public Review(String body,String author,int noOfStars){
+
+//    public Review(String name, int noOfStars, String priceCategory) {
+//
+//    }
+    public Review(String body, String author, int noOfStars) {
+        super( noOfStars);
         this.body=body;
         this.author=author;
         this.noOfStars=noOfStars;
     }
+
+
+
     public String toString(){
         System.out.println(this.body);
         System.out.println(this.author);

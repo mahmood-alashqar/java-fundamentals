@@ -1,7 +1,10 @@
 package Inheritance.com;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class Restaurant {
-    private String name;
+    public String name;
     private int noOfStars;
     private String priceCategory;
     public Restaurant(String name ,int noOfStars ,String priceCategory){
@@ -9,6 +12,12 @@ public class Restaurant {
         this.noOfStars=noOfStars;
         this.priceCategory=priceCategory;
     }
+
+    public Restaurant(int noOfStars) {
+
+        this.noOfStars=noOfStars;
+    }
+
     // dont forget to put tostring method
     public String toString(){
       System.out.println(this.name);
@@ -39,5 +48,22 @@ return "";
 
     public void setPriceCategory(String priceCategory) {
         this.priceCategory = priceCategory;
+    }
+
+    /**
+     *
+     * @param "object" from review
+     */
+    public void addReview(Review review){
+        HashMap<String, ArrayList<String>> allreviews = new HashMap<>();
+        ArrayList<String> rev = new ArrayList<>();
+        review.setName(this.name);
+       rev.add(String.valueOf(review.getNoOfStars()));
+       rev.add(review.getAuthor());
+       rev.add(review.getBody());
+       rev.add(getPriceCategory());
+       allreviews.put(this.name,rev);
+       System.out.println(allreviews);
+
     }
 }
