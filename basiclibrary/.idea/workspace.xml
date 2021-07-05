@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3f3e3ac-c5ec-4669-b186-d95a20ab7c2f" name="Default Changelist" comment="heads">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/basicsPackegeName/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/basicsPackegeName/Library.java" afterDir="false" />
-    </list>
+    <list default="true" id="1b5178c2-c47d-4cd8-be00-b687e81e59a6" name="Default Changelist" comment="lab 03" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="lab-03" />
+        <entry key="$PROJECT_DIR$/.." value="basiclibrary" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -32,35 +29,58 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1ull4WrVvj626xjzSyhxymw53rD" />
+  <component name="ProjectId" id="1ulpNyMd4q0UjAqCi4Y0EomYK3x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../401-data-structures-and-algorithms/Challenges/LinkedList" />
-
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../linter" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager">
+    <configuration name="basicsLibraryConfig" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="basicLibrarySourcePackege.Library" />
+      <module name="basicsLibraryProjetName.lib" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c3f3e3ac-c5ec-4669-b186-d95a20ab7c2f" name="Default Changelist" comment="" />
-      <created>1625247866259</created>
+      <changelist id="1b5178c2-c47d-4cd8-be00-b687e81e59a6" name="Default Changelist" comment="" />
+      <created>1625249995017</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1625247866259</updated>
+      <updated>1625249995017</updated>
     </task>
-    <task id="LOCAL؜٠٠٠٠١" summary="heads">
-      <created>1625253630227</created>
+    <task id="LOCAL؜٠٠٠٠١" summary="lab 02">
+      <created>1625251151260</created>
       <option name="number" value="LOCAL؜٠٠٠٠١" />
       <option name="presentableId" value="LOCAL؜٠٠٠٠١" />
-      <updated>1625253630227</updated>
+      <updated>1625251151260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL؜٠٠٠٠٢" summary="lab 02">
+      <created>1625251737617</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٢" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٢" />
+      <updated>1625251737617</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠٠٣" summary="lab 03">
+      <created>1625252072361</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٣" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٣" />
+      <updated>1625252072361</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,10 +93,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="heads" />
-    <option name="LAST_COMMIT_MESSAGE" value="heads" />
+    <MESSAGE value="lab 02" />
+    <MESSAGE value="lab 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 03" />
   </component>
 </project>

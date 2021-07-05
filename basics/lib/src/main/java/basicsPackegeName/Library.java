@@ -19,12 +19,12 @@ public class Library {
 /**
  * pularaize
  */
-        int dogCount = 1;
-        System.out.println("I own " + dogCount + " " + pluralize("dog", dogCount) + ".");
-        int catCount = 2;
-        System.out.println("I own " + catCount + " " + pluralize("cat", catCount) + ".");
-        int turtleCount = 0;
-        System.out.println("I own " + turtleCount + " " + pluralize("turtle", turtleCount) + ".");
+//        int dogCount = 1;
+//        System.out.println("I own " + dogCount + " " + pluralize("dog", dogCount) + ".");
+//        int catCount = 2;
+//        System.out.println("I own " + catCount + " " + pluralize("cat", catCount) + ".");
+//        int turtleCount = 0;
+//        System.out.println("I own " + turtleCount + " " + pluralize("turtle", turtleCount) + ".");
         /**
          * FlipHeads()
          */
@@ -33,14 +33,7 @@ public class Library {
         /**
          * clock()
          */
-        clock();
-    }
-
-    /**
-     *
-     * @param word to check it if need to add to it apostrophe s
-     * @param num to add to the word
-     * @return the word with a postrophe s or not
+//        clock();
      */
     public static String pluralize(String word , int num ){
         if(num != 1 ){
