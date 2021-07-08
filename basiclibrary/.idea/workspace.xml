@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b5178c2-c47d-4cd8-be00-b687e81e59a6" name="Default Changelist" comment="newBasicsLibrary">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build/classes/java/test/basicLibrarySourcePackege/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/classes/java/test/basicLibrarySourcePackege/LibraryTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="1b5178c2-c47d-4cd8-be00-b687e81e59a6" name="Default Changelist" comment="newBasicsLibrary With testing and readme file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../linter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../401-data-structures-and-algorithms/Challenges/LinkedList" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
@@ -95,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625743725821</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="newBasicsLibrary With testing and readme file">
+      <created>1625744057818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625744057818</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +113,7 @@
     <MESSAGE value="lab 02" />
     <MESSAGE value="lab 03" />
     <MESSAGE value="newBasicsLibrary" />
-    <option name="LAST_COMMIT_MESSAGE" value="newBasicsLibrary" />
+    <MESSAGE value="newBasicsLibrary With testing and readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="newBasicsLibrary With testing and readme file" />
   </component>
 </project>
